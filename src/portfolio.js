@@ -49,23 +49,26 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSION-DRIVEN FULL STACK DEVELOPER WHO LOVES TO PUT IDEAS INTO SCALABLE PRODUCTS",
+  subTitle:
+    "PASSION-DRIVEN FULL STACK DEVELOPER WHO LOVES TO PUT IDEAS INTO SCALABLE PRODUCTS",
   skills: [
-    emoji("🚀 Strong background in building scalable trading and enterprise applications using React Native, C#, and AWS"),
+    emoji(
+      "🚀 Strong background in building scalable trading and enterprise applications using React Native, C#, and AWS"
+    ),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("🛠️ DevOps-savvy, with hands-on experience setting up CI/CD pipelines using AWS ecosystem"),
     emoji(
-      "🤝 Team enabler, known for being a great team player and a mentor"
-    )
+      "🛠️ DevOps-savvy, with hands-on experience setting up CI/CD pipelines using AWS ecosystem"
+    ),
+    emoji("🤝 Team enabler, known for being a great team player and a mentor")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -112,8 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -248,15 +250,14 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Cerified Developer",
-      subtitle:
-        "",
+      subtitle: "",
       image: require("./assets/images/awsLogo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.credly.com/badges/f2b849bb-8481-481b-8a62-bdbae54046d4"
-        },
+        }
       ]
     }
   ],
